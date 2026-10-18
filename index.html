@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <p id="todoListTitle">Todo List</p>
+  <div class="input-grid">
+    <input type="text" id="taskInput" class="todo-name" placeholder="Add a new task..." />
+    <input type="date" id="dateInput" class="todo-date" />
+    <button id="addTaskButton" onclick="addTodo()">Add </button>
+    <button id="clearAllButton" onclick="clearAllTodos()">Clear All</button>
+  </div>
+  <div id="todoList" class="todo-grid"></div>
+  
+
+  <button id="themeToggle" onclick="toggleTheme()">🌘</button>
+  
+   
+</body>
+<script src="index.js"></script>
+</html>
