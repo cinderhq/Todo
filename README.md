@@ -6,6 +6,7 @@ A simple to-do list project built to practise JavaScript and DOM manipulation.
 ## About
 
 This project explores how JavaScript can be used to manage tasks and update a webpage dynamically.
+Check it out at <a href='https://cinderhq.github.io/Todo/'>Cinder's Todo App</a>
 
 ## What I Learned
 
